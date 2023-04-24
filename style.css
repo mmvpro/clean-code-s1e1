@@ -18,8 +18,10 @@
 }
 
 @media (max-width:768px) {
+
   .more { text-align: center;
-}
+  }
+
 }
 .todo {
   display: block;
