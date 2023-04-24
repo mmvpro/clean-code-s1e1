@@ -37,7 +37,7 @@
 .todo__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .todo__add__wrapper {
@@ -139,7 +139,7 @@
 }
 
 .todo__box__item >  .todo__input {
-  width: 226px
+  width: 226px;
 }
 
 .btn.todo__delete .todo__box__item__img {
@@ -154,18 +154,18 @@
 
 /* Completed */
 .todo__box#completed-items .todo__box__item__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .todo__box .todo__box__item .todo__input {
-  display: none
+  display: none;
 }
 
 .todo__box .todo__box__item.edit-mode .todo__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .todo__box .todo__box__item.edit-mode .todo__box__item__label {
